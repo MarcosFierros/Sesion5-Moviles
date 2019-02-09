@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="escolaridad">
+        <item>Bachillerato</item>
+        <item>Técnico</item>
+        <item>Licenciatura</item>
+        <item>Maestría</item>
+        <item>Doctorado</item>
+    </string-array>
+
+    <string-array name="libros">
+        <item>Harry Potter y el Prisionero de Askaban</item>
+        <item>Crónicas Marcianas</item>
+        <item>La Guerra de los Mundos</item>
+        <item>El Último Deseo</item>
+        <item>Viaje al Centro de la Tierra</item>
+    </string-array>
+
+
+</resources>

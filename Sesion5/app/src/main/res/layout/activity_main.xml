@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ActivityMain"
+        android:padding="@dimen/margin">
+
+    <EditText
+            android:id="@+id/activity_main_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/activity_main_name_string"/>
+
+    <EditText
+            android:id="@+id/activity_main_phone_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/activity_main_phone_string"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_escolaridad_string"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_text"
+            android:layout_marginBottom="@dimen/small_margin"/>
+
+    <Spinner
+            android:id="@+id/activity_main_escolaridad_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:entries="@array/escolaridad"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_genero_string"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_text"/>
+
+    <RadioGroup
+            android:id="@+id/activity_main_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/small_margin">
+
+        <RadioButton
+                android:id="@+id/activity_main_fem_rb"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/activity_main_fem_string"/>
+
+        <RadioButton
+                android:id="@+id/activity_main_mas_rb"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/activity_main_mas_string"/>
+
+    </RadioGroup>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_book_string"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/title_text"
+            android:paddingBottom="@dimen/small_margin"/>
+
+    <AutoCompleteTextView
+            android:id="@+id/activity_main_libros_atv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:imeOptions="actionDone"/>
+
+    <CheckBox
+            android:id="@+id/activity_main_sport_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_sport_string"
+            android:textColor="@android:color/black"
+            android:checked="false"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_main_clean_string"
+                android:onClick="cleanButtonAction"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

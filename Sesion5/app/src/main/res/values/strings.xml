@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sesión 5</string>
+    <string name="activity_main_name_string">Ingrese su nombre</string>
+    <string name="activity_main_phone_string">Ingrese su teléfono</string>
+    <string name="activity_main_escolaridad_string">Escolaridad</string>
+    <string name="activity_main_genero_string">Género</string>
+    <string name="activity_main_fem_string">Femenino</string>
+    <string name="activity_main_mas_string">Masculino</string>
+    <string name="activity_main_book_string">Libro Favorito</string>
+    <string name="activity_main_sport_string">Practica Deporte</string>
+    <string name="activity_main_clean_string">Limpiar</string>
+    <string name="menu_item_save">Guardar</string>
+    <string name="error_name_string">¿Cuál es tu nombre?</string>
+    <string name="error_phone_string">¿Cuál es tu teléfono?</string>
+    <string name="alert_dialog_message">¿Desea limpiar el contenido?</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancelar">CANCELAR</string>
+</resources>
